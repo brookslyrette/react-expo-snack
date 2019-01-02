@@ -1,7 +1,7 @@
 {
   "name": "react-expo-snack",
   "version": "1.0.0",
-  "description": "react-expo-snack React component",
+  "description": "React component for rendering Expo Snacks",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -14,10 +14,7 @@
     "build": "nwb build-react-component",
     "clean": "nwb clean-module && nwb clean-demo",
     "prepublishOnly": "npm run build",
-    "start": "nwb serve-react-demo",
-    "test": "nwb test-react",
-    "test:coverage": "nwb test-react --coverage",
-    "test:watch": "nwb test-react --server"
+    "start": "nwb serve-react-demo"
   },
   "dependencies": {},
   "peerDependencies": {
@@ -28,8 +25,8 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },
-  "author": "",
-  "homepage": "",
+  "author": "Brooks Lyrette - https://github.com/brookslyrette",
+  "homepage": "https://github.com/brookslyrette/react-expo-snack",
   "license": "MIT",
   "repository": "",
   "keywords": [
